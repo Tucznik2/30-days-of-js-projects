@@ -78,4 +78,5 @@ languagesButton.addEventListener("click", () => {
   showLanguagesRanking();
 });
 
+rankingTitle.textContent = "10 Most populated countries in the world";
 window.onload = showPopulationRanking();
